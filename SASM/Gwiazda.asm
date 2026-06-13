@@ -1,3 +1,7 @@
+; Stary program z czasów nauki NASM w SASM - rysuje "schodki" z gwiazdek
+; w zależności od podanej liczby. Zostawiony jako przykład pętli, warunków
+; oraz wejścia/wyjścia (io_print_string, io_get_dec, io_get_char).
+
 section .data
     message db 'Gwiazda', 0xA, 0  ; Tekst + nowa linia + null
     message2 db 'Ile chcesz gwiazd: ', 0xA, 0 ; Zamiast 0xA można użyć call io_newlin
