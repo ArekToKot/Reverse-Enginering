@@ -1,2 +1,2 @@
 # Assembler
-notatki z nauki assemblera
+Assembler study notes
